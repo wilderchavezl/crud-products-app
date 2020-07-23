@@ -1,7 +1,5 @@
 # crud-products-app
 
-![Capturas](https://raw.githubusercontent.com/wilderchavezl/crud-products-app/master/resources/captures-app.png)
-
 La aplicación se realizó en **Android Studio** usando el lenguaje **Java**.  
 Usa la libreria **Volley** para los servicios y la libreria **Gson** para la serialización y deserialización entre objetos Java y su representación en notación JSON.  
 Utiliza los servicios de este repositorio [crud-products-backend](https://github.com/wilderchavezl/crud-products-backend).
@@ -10,3 +8,5 @@ Utiliza los servicios de este repositorio [crud-products-backend](https://github
 * Menú de opciones
 * Registro de productos
 * Lista de productos
+
+![Capturas](https://raw.githubusercontent.com/wilderchavezl/crud-products-app/master/resources/captures-app.png)
