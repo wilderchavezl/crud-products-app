@@ -47,7 +47,6 @@ public class ActDetalleProducto extends AppCompatActivity {
         Bundle bundle=getIntent().getExtras();
         if (bundle!=null) {
             producto=(Producto) bundle.getSerializable("data");
-            Toast.makeText(this,producto.getId()+"",Toast.LENGTH_LONG).show();
             btnRegistrar.setVisibility(View.INVISIBLE);
 
             mostrarDatos();
@@ -67,7 +66,7 @@ public class ActDetalleProducto extends AppCompatActivity {
 
     public void registrarProducto(View view) {
         RequestQueue queue = Volley.newRequestQueue(this);
-        String url ="http://localhost:8080/products";
+        String url ="http://192.168.1.5:8080/products";
 
         JSONObject jsonObject = new JSONObject();
         try {

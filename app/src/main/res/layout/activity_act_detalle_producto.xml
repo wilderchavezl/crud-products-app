@@ -79,29 +79,29 @@
 
     <Button
         android:id="@+id/btnEditar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="98dp"
+        android:layout_height="47dp"
         android:onClick="editarProducto"
         android:text="Editar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintStart_toEndOf="@+id/btnEliminar"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toEndOf="@+id/btnRegresar"
         app:layout_constraintTop_toBottomOf="@+id/edtStock"
-        app:layout_constraintVertical_bias="0.659" />
+        app:layout_constraintVertical_bias="0.276" />
 
     <Button
         android:id="@+id/btnEliminar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="94dp"
+        android:layout_height="50dp"
         android:onClick="eliminarProducto"
         android:text="Eliminar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintHorizontal_bias="0.763"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtStock"
-        app:layout_constraintVertical_bias="0.659" />
+        app:layout_constraintVertical_bias="0.706" />
 
     <Button
         android:id="@+id/btnRegresar"
